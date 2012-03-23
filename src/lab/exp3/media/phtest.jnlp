@@ -17,7 +17,7 @@
     <applet-desc 
          name="Dynamic Tree Demo Applet"
          main-class="edu.eerc.demos.PhTest"
-         width="300"
-         height="300">
+         width="800"
+         height="900">
      </applet-desc>
 </jnlp>	

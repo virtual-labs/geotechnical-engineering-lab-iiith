@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Dynamic Tree Demo</title>
+
+        <vendor>Dynamic Team</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.5+"
+              href="http://java.sun.com/products/autodl/j2se"
+              max-heap-size="128m" />
+
+        <jar href="vs.jar" main="true" />
+
+    </resources>
+    <applet-desc 
+         name="Dynamic Tree Demo Applet"
+         main-class="edu.eerc.demos.VaneShear"
+         width="300"
+         height="300">
+     </applet-desc>
+</jnlp>	
