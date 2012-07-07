@@ -1,0 +1,334 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<div id="experiment"> <!-- The Experiment Document Container-->
+
+  <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+  <header id="experiment-header" class="default">
+  
+    <div id="experiment-header-logo" class="logo">
+      <!-- Enclose the logo image of your lab or write it in 
+      text-->
+      <img src="../images/logo.jpg" />
+    </div>
+
+    <div id="experiment-header-heading" class="heading">
+      <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+      <a href="../index.html">Soil Mechanics Lab</a>	
+    </div>
+
+    <!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="experiment-article">
+  
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+     <div id="experiment-article-breadcrumb" class="breadcrumb">
+     </div>
+    
+      <header id="experiment-article-heading" class="heading">
+        <!-- You can add a welcome message or title of the 
+        experiment here -->
+        Vane Shear Test
+        <!-- Add any additional element if required with proper 
+        enclosing-->
+      </header>
+
+      <!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+      <nav id="experiment-article-navigation" class="default">
+        <ul id="experiment-article-navigation-menu">
+          <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          <li> tag as shown below-->
+        </ul>
+      </nav>
+
+      <!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+      <div id="experiment-article-sections">
+
+        <!-- First section of the article-->
+        <section id="experiment-article-section-1">
+          
+          <div id="experiment-article-section-1-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab -->
+	    <img src="../images/introduction.jpg" />
+	  </div>	
+          
+          <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+          <div id="experiment-article-section-1-heading" 
+          class="heading">
+            Introduction
+          </div>
+
+          <!-- Write the section content inside a paragraph 
+          element, You can also include images with <img> tag -->
+          <div id="experiment-article-section-1-content" 
+          class="content">	
+            <p>
+		In this module, The structural strength of soil is basically a problem of shear strength.
+		Vane shear test is a useful method of measuring the shear strength of clay. It is a cheaper and
+		quicker method. The test can also be conducted in the laboratory. The laboratory vane shear test
+		for the measurement of shear strength of cohesive soils, is useful for soils of low shear strength
+		(less than 0.3 kg/cm2) for which triaxial or unconfined tests cannot be performed. The test gives
+		the undrained strength of the soil. The undisturbed and remoulded strength obtained are useful
+		for evaluating the sensitivity of soil.
+	    </p>
+	    <h2> General Remarks </h2>
+	    <p> This test is useful when the soil is soft and its water content is nearer to liquid limit. </p>
+		<img src = 'media/vaneShear.jpg' height='300'/> 
+        </div>
+
+
+      </section>
+
+      <!-- Second section of the article-->
+      <section id="experiment-article-section-2">
+        
+        <div id="experiment-article-section-2-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+				
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+        <div id="experiment-article-section-2-heading" 
+        class="heading">
+          Theory
+        </div>
+
+
+        <!-- Write the section content inside a paragraph 
+        element, we can also include images with <img> tag -->
+        <div id="experiment-article-section-2-content" 
+        class="content">
+          <p>The vane shear test is an in-situ geotechnical testing methods used to estimate the undrained shear strength of fully saturated clays without disturbance. The test is relatively simple, quick, and provides a cost-effective way of estimating the soil shear strength
+          </p>
+          <h2>Planning and organization equipment</h2>
+          <p>
+          	<ol>
+          	<li> Vane shear apparatus.</li>
+          	<li> Specimen.</li>
+          	<li> Specimen container.</li>
+          	<li> Callipers.</li>
+          	</ol>
+          </p>
+          <h2>Calculations</h2>
+          <p>
+          	Shear Strength, <font size='4'><i>S = T / [ &Pi; * (D<sup>2</sup>H/2 + D<sup>3</sup>)]</i></font>
+          </p>
+          <p> Where, <br />
+          S = shear strength of soil in kg/cm<sup>2</sup> <br />
+          T = torque in cm.kg <br />
+          D = overall diameter of vane in cm <br />
+          T = ( Spring constant / 180<sup>0</sup> ) * difference in degrees </p>
+        </div>
+      </section>
+
+
+      <section id="experiment-article-section-3">
+        
+        <div id="experiment-article-section-3-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+     
+        <div id="experiment-article-section-3-heading" 
+        class="heading">
+          Objective
+        </div>
+
+        <div id="experiment-article-section-3-content" 
+        class="content">
+          <p>
+            Objective of To find the <span class="term">shear strength</span> of a given <span class="term">soil specimen</span>.
+          </p> 
+       
+        </div>
+
+      </section>
+
+
+      <section id="experiment-article-section-4">
+
+        <div id="experiment-article-section-4-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/simulation.jpg" />
+	</div>
+
+        <div id="experiment-article-section-4-heading" 
+        class="heading">
+          Experiment
+        </div>
+
+        <div id="experiment-article-section-4-content" 
+        class="content">
+          <p>
+	       <!-- Place or link to your experiment java applet 
+	        or flash file here. -->
+	        <a href='media/shearing.swf' target=_blank>Go to Flash view on Van Shear Test (Click here)</a> <br /><br />
+	        <a href='media/ve_vanshear.html' target=_blank>Go to Virtual Lab on Van Shear Test (Click here)</a>
+            
+          </p>
+        </div>
+
+      </section>
+
+
+        <section id="experiment-article-section-6">
+      
+          <div id="experiment-article-section-6-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/quizzes.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-6-heading" 
+          class="heading">
+            Quizzes
+          </div>
+
+          <div id="experiment-article-section-6-content" 
+          class="content">
+            
+            <p>
+            <form name="input" action="quiz.html" method="get">
+            <table cellpadding='20'>
+            <tr><td>  
+              <b>Q1.</b> 
+              The Vane Shear test is useful to determine the in situ shear strength for? <br> 
+              <input type="radio" name="q1" id="q1" value="1"> Long term stability of an earthen embankment constructed with 
+              						       homogeneous stiff clay soils <br>
+              <input type="radio" name="q1" id="q1" value="2"> Rapid construction of an earthen embankment constructed with homogeneous clay
+sands and gravels <br>
+              
+              <b>Q2.</b> 
+              Vane shear test is done to find __________ of soil?<br> 
+              <input type="radio" name="q2" id="q2" value="1"> Specific Gravity <br>
+              <input type="radio" name="q2" id="q2" value="2"> Shear Strength <br>
+              <input type="radio" name="q2" id="q2" value="3"> Density <br> 
+              <input type="radio" name="q2" id="q2" value="4"> Moisture <br/><br/> 
+              
+              <b>Q3.</b> 
+              Vane shear test is limited to fine grained soils due to? <br> 
+              <input type="radio" name="q3" id="q3" value="1"> Water content <br>
+              <input type="radio" name="q3" id="q3" value="2"> Hardness <br>
+              <input type="radio" name="q3" id="q3" value="3"> Grain size <br> 
+              <input type="radio" name="q3" id="q3" value="4"> Organic matter <br/><br/> 
+              
+              <b>Q4.</b> 
+              Vane Shear Test should consist of ____ plates fixed at 90<sup>0</sup> angle to each other ? <br> 
+              <input type="radio" name="q4" id="q4" value="1"> 1 <br>
+              <input type="radio" name="q4" id="q4" value="2"> 3 <br>
+              <input type="radio" name="q4" id="q4" value="3"> 4 <br> 
+              <input type="radio" name="q4" id="q4" value="4"> 2 <br/><br/> 
+              
+              <b>Q5.</b> 
+		The shear vane can be rotated until soil failure occurs. At this point, maximum ______can be calculated ? <br> 
+              <input type="radio" name="q5" id="q5" value="1"> Torque <br>
+              <input type="radio" name="q5" id="q5" value="2"> Shear Strength <br>
+              <input type="radio" name="q5" id="q5" value="3"> Water Content <br> 
+              <input type="radio" name="q5" id="q5" value="4"> Density <br/><br/> 
+                     
+              <input type="submit" value="Submit Answers" class="button" />
+              </td></tr></table></form>
+            </p>
+
+          </div>
+
+        </section>
+
+        <section id="experiment-article-section-7">
+	  
+          <div id="experiment-article-section-7-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab. -->
+	    <img src="../images/procedure.jpg" />
+	  </div>
+	
+          <div id="experiment-article-section-7-heading" 
+          class="heading">
+	    Procedure
+	  </div>
+	
+          <div id="experiment-article-section-7-content" 
+          class="content">
+	    <p>
+		<ol>
+          	<li> Prepare two or three specimens of the soil sample of dimensions of at least 37.5 mm diameter and 75 mm length in specimen.(L/D ratio 2 or 3).</li>
+          	<li> Mount the specimen container with the specimen on the base of the vane shear apparatus. If the specimen container is closed at one end, it should be provided with a hole of about 1 mm diameter at the bottom.</li>
+          	
+          	<li> Gently lower the shear vanes into the specimen to their full length without disturbing the soil specimen. The top of the vanes should be atleast 10 mm below the top of the specimen. Note the readings of the angle of twist.</li>
+          	
+          	<li> Rotate the vanes at a uniform rate say 0.1o/s by suitable operating the torque application handle until the specimen fails. </li>
+
+		<li> Note the final reading of the angle of twist. </li>
+		<li> Find the value of blade height in cm.</li>
+		<li> Find the value of blade width in cm.</li>
+          	</ol>
+	    </p>
+	  </div>
+	
+        </section>
+				
+  
+      </div>
+
+
+    <!-- An article can have a sidebar that contain related 
+    links and additional material (however it is kept optional 
+    at this moment) -->
+    <aside id="lab-article-sidebar" class="default">
+      <!-- put the content that you want to appear in the 
+      sidebar -->	
+    </aside>
+
+
+    <!-- Article footer can display related content and 
+    additional links -->						
+    <footer id="lab-article-footer" class="default">
+      <!-- Put the content that you want to appear here -->
+    </footer>
+
+  </article>
+
+
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>		
+
+</body>
+</html>
