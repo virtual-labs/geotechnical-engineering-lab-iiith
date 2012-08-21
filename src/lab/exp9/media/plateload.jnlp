@@ -11,7 +11,7 @@
               href="http://java.sun.com/products/autodl/j2se"
               max-heap-size="128m" />
 
-        <jar href="Plateload.jar" main="true" />
+        <jar href="/Experiment/Experiment.jar" main="true" />
 
     </resources>
     <applet-desc 
