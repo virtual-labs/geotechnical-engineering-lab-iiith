@@ -353,4 +353,6 @@ aside
  color: #fefefe;
 }
 
-
+p {
+	text-align: justify;
+}
