@@ -16,7 +16,7 @@
     </resources>
     <applet-desc 
          name="Dynamic Tree Demo Applet"
-         main-class="Experiment"
+         main-class="edu.eerc.demos.Experiment"
          width="300"
          height="300">
      </applet-desc>
