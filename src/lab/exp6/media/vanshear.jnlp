@@ -17,7 +17,7 @@
     <applet-desc 
          name="Dynamic Tree Demo Applet"
          main-class="edu.eerc.demos.VaneShear"
-         width="300"
-         height="300">
+         width="800"
+         height="550">
      </applet-desc>
 </jnlp>	
