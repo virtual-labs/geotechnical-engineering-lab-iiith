@@ -829,10 +829,11 @@ a:focus
 {
 	color: #2C99CE;
 	font-size: 1.8em;
-        font-weight: bold;
-        text-align : center;
+    font-weight: bold;
+    text-align : center;
 
 }
+
 .text-a-lightgreen
 {
 	color: #72AB44;
