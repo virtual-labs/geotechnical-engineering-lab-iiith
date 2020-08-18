@@ -350,4 +350,10 @@ aside
  color: #fefefe;
 }
 
-
+#lab-footer, .footer {
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+	width: 90%;
+}
